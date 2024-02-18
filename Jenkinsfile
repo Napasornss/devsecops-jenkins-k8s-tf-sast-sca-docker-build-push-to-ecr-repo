@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools { 
-        maven 'Apache-MAVEN  
+        maven 'Apache-MAVEN'  
     }
    stages{
     stage('Compile and SAST Scanning') {
